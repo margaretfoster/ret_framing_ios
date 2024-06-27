@@ -15,9 +15,13 @@ The [data](https://github.com/margaretfoster/ret_framing_ios/tree/master/data) t
 We extracted the data, extracted speaker information using SpaceyR, and extensively validated paragraph breaks, speaker identification, and content. We also standardized many of the references.
 The result is the WTOSpeakerTurnsM1to113.xlsx.
 
-Through the manuscript, we qualitatively describe the interplay between two pervasive frame: 
-- A "Reciprocation Frame," associated with conventionally more powerful states that emphasizes the responsibilities of all states and pushes for two-way concessions and tends to be wielded by states that are conventionally strong. In contrast, emphasizing injustices suffered by particular states, the Redistribution Frame prescribes one-way concessions and tends to be wielded by states that are conventionally weak. 
-![image](https://github.com/margaretfoster/ret_framing_ios/assets/10012916/55f12c20-f334-4ad9-9e7a-cd4bd2a1f0cc)
+In the manuscript, we qualitatively describe the interplay between two pervasive frames: 
+- A "Reciprocation Frame," associated with conventionally more powerful states focuses on the responsibilities of all states and pushes for two-way concessions.
+- A "Redistribution Frame," associated with conventionally weak states that emphasizes injustices and prescribe one-way concessions to aid those states.
+
+We note that proponents of both frames make great efforts to avoid having the other frame dominate the committee minutes. 
+
+We support this analysis with visualizations showing the sequencing and quantity of turns associated with conventionally strong and weaker states (proxied by World Bank income categories). Below, we briefly introduce some of the visualizations. (The manuscript replications are greyscale; color is here for effect.)
 
 Our analysis visualizes 
 
