@@ -557,7 +557,8 @@ gg.year <- ggplot(timesum.year,
                                  by=1)) +
   labs(fill="Income Level") +
   theme(axis.text.x = element_text(angle = 45, 
-                                   size=5))
+                                   size=5))+
+  theme(legend.position="bottom")
 
 gg.year
 ## Color for repository:
