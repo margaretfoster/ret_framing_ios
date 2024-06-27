@@ -11,8 +11,8 @@ We model how this plays out in over 5,000 speaker paragraphs from meetings 1-113
 
 This repository contains the code to produce visualization in the manuscript-- many of which are included here in color (in addition to the printer-friendly grayscale of the manuscript).
 
-The [data](https://github.com/margaretfoster/ret_framing_ios/tree/master/data) that we used was extracted from 113-Word and pdf [transcripts produced by the WTO](https://docs.wto.org/dol2fe/Pages/FE_Search/FE_S_S005.aspx).
-We extracted the data, extracted speaker information using SpaceyR, and extensively validated paragraph breaks, speaker identification, and content. We also standardized many of the references. The result is the WTOSpeakerTurnsM1to113.xlsx.
+We generated the [data](https://github.com/margaretfoster/ret_framing_ios/tree/master/data) from 113-Word and pdf [transcripts produced by the WTO](https://docs.wto.org/dol2fe/Pages/FE_Search/FE_S_S005.aspx).
+In addition to reading the text into a database, we extracted speaker information using Spacey and extensively validated paragraph breaks, speaker identification, and content. We also standardized many of the references. The result is the WTOSpeakerTurnsM1to113.xlsx.
 
 In the manuscript, we qualitatively describe the interplay between two pervasive frames: 
 - A "Reciprocation Frame," associated with conventionally more powerful states focuses on the responsibilities of all states and pushes for two-way concessions.
@@ -34,7 +34,7 @@ We also find evidence that although they contribute less often to the debate, de
 
 ![Turn distributions](https://github.com/margaretfoster/ret_framing_ios/blob/master/images/speakerTurnsPosition.png)
 
-Finally, we randomly selected three meetings to plot the sequence of strong and weak states. We show that both conventionally "weak" and conventionally "strong" states display a pattern of responding to the other holding the floor. We interpret this as a defensive strategy to prevent the opposing frame from becoming the defacto dominant frame.
+Finally, we randomly selected three meetings to plot the sequence of strong and weak states. We show that both conventionally "weak" and conventionally "strong" states display a pattern of responding to the other holding the floor. We interpret this as a defensive strategy to prevent the opposing frame from becoming the defacto dominant frame. The whitespace in the plots represents turns by non-state interlocutors (such as the Secretariat, or invited presentations). 
 
 ![Turn sequence](https://github.com/margaretfoster/ret_framing_ios/blob/master/images/threeSequenceColor.png)
 
