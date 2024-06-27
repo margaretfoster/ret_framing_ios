@@ -11,7 +11,7 @@ We model how this plays out in over 5,000 speaker paragraphs from meetings 1-113
 
 This repository contains the code to produce visualization in the manuscript-- many of which are included here in color (in addition to the printer-friendly grayscale of the manuscript).
 
-We generated the [data](https://github.com/margaretfoster/ret_framing_ios/tree/master/data) from 113-Word and pdf [transcripts produced by the WTO](https://docs.wto.org/dol2fe/Pages/FE_Search/FE_S_S005.aspx).
+We generated the [data](https://github.com/margaretfoster/ret_framing_ios/tree/master/data) from 113-Word and pdf [transcripts produced by the WTO](https://docs.wto.org/dol2fe/Pages/FE_Search/FE_S_S005.aspx).  The replication code for an extended version of the data (up to Meeting 117) can be accessed at [this repository](https://github.com/margaretfoster/wto_data_extract_rep_).
 In addition to reading the text into a database, we extracted speaker information using Spacey and extensively validated paragraph breaks, speaker identification, and content. We also standardized many of the references. The result is the WTOSpeakerTurnsM1to113.xlsx.
 
 In the manuscript, we qualitatively describe the interplay between two pervasive frames: 
