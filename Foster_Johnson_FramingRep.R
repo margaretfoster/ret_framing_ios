@@ -280,7 +280,8 @@ p_gray
 ggsave(p_gray,
        width=8,
        height=6,
-       file=paste0(imagePath,"correlationBar.pdf"))
+       dpi = 300,
+       file=paste0(imagePath,"correlationBar.jpg"))
 
 
 ## Color for repository:
@@ -443,7 +444,8 @@ gg2_gray <- ggplot(data=ctmselect,
 gg2_gray 
 
 ggsave(gg2_gray,
-       file=paste0(imagePath, "threeSequence.pdf"))
+       dpi = 300,
+       file=paste0(imagePath, "threeSequence.jpg"))
 
 ## Color for repository:
 gg2_color <- ggplot(data=ctmselect,
@@ -605,7 +607,8 @@ gg.yearbimode <- ggplot(timesum.bimode,
 gg.yearbimode
 
 ggsave(gg.yearbimode,
-       file=paste0(imagePath,"incomebyyearbimode.pdf"))
+       dpi = 300,
+       file=paste0(imagePath,"incomebyyearbimode.jpg"))
 
 
 ## clean up a bit:  
@@ -657,7 +660,8 @@ posgg <- ggplot(tmp2,
 posgg
 
 ggsave(posgg,
-       file= paste0(imagePath,"speakerTurnsPosition.pdf"))
+       dpi = 300,
+       file= paste0(imagePath,"speakerTurnsPosition.jpg"))
 
 ## Color for repository:
 
